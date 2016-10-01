@@ -39,17 +39,41 @@ ul {
   overflow: hidden;
   margin-top: -5px;
 }
-/*.background img {
-  margin-top: -70px;
-}*/
 .background p {
   position: absolute;
   color: #FEFEFE;
   text-align: center;
   padding: 50px;
 }
-.plan {overflow: auto}
-.plan-type {float:left}
+
+.plan {
+  overflow: auto;
+  text-align:center;
+}
+.plan-type {
+  float:left
+}
+
+
+
+.selection {
+  overflow: auto;
+  clear: both;
+}
+.selection-type {
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
