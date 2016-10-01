@@ -37,7 +37,7 @@ ul {
   position: relative;
   height: 328px;
   overflow: hidden;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 .background p {
   position: absolute;
@@ -49,70 +49,91 @@ ul {
 .plan {
   overflow: auto;
   text-align:center;
-  padding: 50px;
+  padding: 17px;
+  margin-left: 130px;
 }
 .plan-type {
   float:left;
+  padding: 7px;
 }
 .plana-header {
   background-color: #519251;
   color: #F7F8FB;
 }
+.plana-header .per-month { color: #ABCBAB}
 .planb-header {
   background-color: #2C4985;
   color: #F7F8FB;
 }
+.planb-header .per-month { color: #97A4C3}
 .planc-header {
   background-color: #111111;
   color: #F7F8FB;
 }
-
-.type {}
-.price {}
-.per-month {}
-  
-.plan-options .options {
+.planc-header .per-month { color: #898989}
+.personal { width: 255px; }
+.business { width: 255px; }
+.enterprise { width: 255px; }
+.type {
+  padding-top:25px;
+  padding-right: 50px;
+  padding-left: 50px;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.price {
+  font-size: 75px;
+  font-weight: lighter;
+}
+.per-month {
+  padding-bottom: 30px;
+}
+.options {
   color: #748085;
   font-size: 14px;
   background-color: #F6F6F6;
-  border: #E3E3E3;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  letter-spacing: -1px;
 }
-
-.type {
-
-}
-.price {
-
-}
-.per-month {
-
+.choose-option {
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 11px
 }
 
 .selection {
   overflow: auto;
   clear: both;
+  padding-top: 22px;
+  padding-left: 160px;
+  padding-right: 100px;
 }
-.selection-type {
+.selection-group {
   float: left;
+  width: 360px;
+  margin-right: 25px;
+  margin-left: 15px;
+  padding-bottom: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.selection-title {
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+.selection-detail {
+  font-size: 13px;
+  color: #4F5D63;
+  line-height: 21.5px;
+  padding-top: 12px;
+  padding-bottom: 38px;
+}
 
 
 .footer {
   background-color: black;
   color: #747474;
   padding: 5px;
+  margin-top: -50px;
   margin-bottom: 0px;
   text-align: center;
   font-size: 13px;
