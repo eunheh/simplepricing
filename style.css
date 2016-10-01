@@ -3,12 +3,17 @@
   font-family: 'Chivo', sans-serif;
 }
 body {
+  margin: 0px;
+  width: 86%;
 }
-
+ul {
+  list-style-type: none;
+}
 .topbar-menu {
   color: #919191;
   font-size: 12px;
   padding-top: 4px;
+  padding-bottom: 10px;
   padding-left: 12px;
 }
 .topbar { display:inline;}
@@ -17,7 +22,8 @@ body {
   float: left;
 }
 .topbar-list {
-  padding-left: 24px;
+  padding-left: 31px;
+  padding-top: 2px;
 }
 #logo {
   color: #696F75;
@@ -26,3 +32,21 @@ body {
 .pricing {
   color: #292929;
 }
+
+.background {
+  position: relative;
+  height: 328px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+/*.background img {
+  margin-top: -70px;
+}*/
+.background p {
+  position: absolute;
+  color: #FEFEFE;
+  text-align: center;
+  padding: 50px;
+}
+.plans {overflow: auto}
+.plan-type {float:left}
