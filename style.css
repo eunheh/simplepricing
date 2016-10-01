@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
+}
+body {
+}
+
+.topbar-menu {
+  color: #919191;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-left: 12px;
+}
+.topbar { display:inline;}
+.topbar li {
+  list-style-type: none;
+  float: left;
+}
+.topbar-list {
+  padding-left: 24px;
+}
+#logo {
+  color: #696F75;
+  font-size: 15px;
+}
+.pricing {
+  color: #292929;
+}
