@@ -7,7 +7,7 @@ body {
   width: 86%;
 }
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 .topbar-menu {
   color: #919191;
@@ -49,12 +49,44 @@ ul {
 .plan {
   overflow: auto;
   text-align:center;
+  padding: 50px;
 }
 .plan-type {
-  float:left
+  float:left;
+}
+.plana-header {
+  background-color: #519251;
+  color: #F7F8FB;
+}
+.planb-header {
+  background-color: #2C4985;
+  color: #F7F8FB;
+}
+.planc-header {
+  background-color: #111111;
+  color: #F7F8FB;
 }
 
+.type {}
+.price {}
+.per-month {}
+  
+.plan-options .options {
+  color: #748085;
+  font-size: 14px;
+  background-color: #F6F6F6;
+  border: #E3E3E3;
+}
 
+.type {
+
+}
+.price {
+
+}
+.per-month {
+
+}
 
 .selection {
   overflow: auto;
