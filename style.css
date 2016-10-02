@@ -90,17 +90,19 @@ ul {
   color: #748085;
   font-size: 14px;
   background-color: #F6F6F6;
-  padding-top: 9px;
+  padding-top: 7px;
   padding-bottom: 11px;
   letter-spacing: -1px;
+  border: 1px solid #E8E8E8;
 }
 .choose {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  border: 1px solid #E8E8E8;
 }
 button {
   background-color: transparent;
-  border: 1px solid lightgrey;
+  border: 1px solid #E8E8E8;
   border-radius: 25px;
   padding: 9px;
   font-size: 14px;
@@ -109,7 +111,7 @@ button {
 .selection {
   overflow: auto;
   clear: both;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 174px;
   padding-right: 120px;
   margin-bottom: 5px;
@@ -137,7 +139,7 @@ button {
 .footer {
   background-color: black;
   color: #747474;
-  padding: 13px;
+  padding: 10px;
   text-align: center;
   font-size: 12.5px;
 }
