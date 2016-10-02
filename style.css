@@ -9,6 +9,7 @@ body {
 ul {
   list-style: none;
 }
+
 .topbar-menu {
   color: #919191;
   font-size: 12px;
@@ -32,6 +33,7 @@ ul {
 .pricing {
   color: #292929;
 }
+
 .background {
   background: url(./normal-mode/assets/background.jpg);
   background-size: cover;
@@ -44,6 +46,7 @@ ul {
   font-size: 39px;
   padding-top: 118px;
 }
+
 .plan {
   overflow: auto;
   text-align:center;
@@ -108,6 +111,7 @@ button {
   font-size: 14px;
   font-weight: bold;
 }
+
 .selection {
   overflow: auto;
   clear: both;
@@ -136,6 +140,7 @@ button {
 .white {
   color: #FFFFFF;
 }
+
 .footer {
   background-color: black;
   color: #747474;

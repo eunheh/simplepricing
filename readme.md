@@ -1,6 +1,6 @@
+#simplepricing
 
-
-# HTML & CSS was utilized to recreate a HTML paged based on an image file.
+## HTML & CSS was utilized to recreate a HTML paged based on an image file.
 
 1. HTML
   * set up the content using various selectors (tags, classes and an id)
