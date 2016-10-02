@@ -4,7 +4,7 @@
 }
 body {
   margin: 0px;
-  width: 86%;
+  max-width: 1100px;
 }
 ul {
   list-style: none;
@@ -13,7 +13,7 @@ ul {
   color: #919191;
   font-size: 12px;
   padding-top: 4px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   padding-left: 12px;
 }
 .topbar { display:inline;}
@@ -33,23 +33,20 @@ ul {
   color: #292929;
 }
 
+
 .background {
-  position: relative;
+  background: url(./normal-mode/assets/background.jpg);
+  background-size: cover;
   height: 328px;
-  overflow: hidden;
   margin-top: 0px;
-}
-.background p {
-  position: absolute;
   color: #FEFEFE;
   text-align: center;
-  padding: 50px;
 }
 
 .plan {
   overflow: auto;
   text-align:center;
-  padding: 17px;
+  padding: 16px;
   margin-left: 130px;
 }
 .plan-type {
@@ -75,7 +72,7 @@ ul {
 .business { width: 255px; }
 .enterprise { width: 255px; }
 .type {
-  padding-top:25px;
+  padding-top:27px;
   padding-right: 50px;
   padding-left: 50px;
   letter-spacing: 2px;
@@ -84,7 +81,7 @@ ul {
 .price {
   font-size: 75px;
   font-weight: lighter;
-}
+  }
 .per-month {
   padding-bottom: 30px;
 }
@@ -98,23 +95,24 @@ ul {
 }
 .choose-option {
   font-size: 15px;
+  font-weight: bold;
   padding-top: 8px;
-  padding-bottom: 11px
+  padding-bottom: 11px;
 }
 
 .selection {
   overflow: auto;
   clear: both;
   padding-top: 22px;
-  padding-left: 160px;
-  padding-right: 100px;
+  padding-left: 174px;
+  padding-right: 120px;
+  margin-bottom: 5px;
 }
 .selection-group {
+  clear: none;
   float: left;
-  width: 360px;
+  width: 375px;
   margin-right: 25px;
-  margin-left: 15px;
-  padding-bottom: 22px;
 }
 .selection-title {
   letter-spacing: 4px;
@@ -125,18 +123,18 @@ ul {
   color: #4F5D63;
   line-height: 21.5px;
   padding-top: 12px;
-  padding-bottom: 38px;
+  padding-bottom: 14px;
 }
-
+.white {
+  color: #FFFFFF;
+}
 
 .footer {
   background-color: black;
   color: #747474;
-  padding: 5px;
-  margin-top: -50px;
-  margin-bottom: 0px;
+  padding: 13px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 .footer p a {
   color: white;
